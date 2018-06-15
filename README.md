@@ -8,7 +8,7 @@ This is a little intro workshop for Vue.js. You can follow along on your own or 
 Please make sure to have [Node](https://nodejs.org/) and [NPM](https://www.npmjs.com/) installed before begining.  
 https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/
 
-Make sure to check out Vue.js's excellent documentation  
+This intro will not explain everything, but we will build a little two page app with an API and I will explain what are doing along the way. Make sure to read the Vue.js documentation for a more in depth expanation of everything.  
 https://vuejs.org/v2/guide/
 
 Once you have npm installed you can start the tutorial in the wiki section.  
@@ -19,4 +19,4 @@ https://github.com/VVJS/intro/wiki
 - [Vue.js](https://vuejs.org/)
 - [Vue.js CLI ](https://github.com/vuejs/vue-cli) for the initial setup
 - [Vuetify ](https://vuetifyjs.com/) for style
-- [PokeApi front end wrapper ](https://github.com/PokeAPI/pokeapi-js-wrapper) for API calls to the [PokeApi](https://pokeapi.co/)
+- Decathlon's [Sport Places API](https://developers.decathlon.com/sportplaces/)
