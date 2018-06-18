@@ -39,7 +39,7 @@ export default {
                     title: 'Inspire'
                 }
             ],
-            title: 'Vuetify.js'
+            title: 'Intro to Vue.js'
         }
     }
 }
