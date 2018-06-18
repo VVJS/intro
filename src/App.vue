@@ -2,7 +2,7 @@
     <v-app>
         <v-navigation-drawer persistent v-model="drawer" fixed app>
             <v-list>
-                <v-list-tile value="true" v-for="(item, i) in items" :key="i">
+                <v-list-tile :to="item.url" v-for="(item, i) in items" :key="i">
                     <v-list-tile-action>
                         <v-icon>{{ item.icon }}</v-icon>
                     </v-list-tile-action>
@@ -35,8 +35,9 @@ export default {
             drawer: true,
             items: [
                 {
-                    icon: 'bubble_chart',
-                    title: 'Inspire'
+                    icon: 'list',
+                    title: 'List',
+                    url: '/'
                 }
             ],
             title: 'Intro to Vue.js'
