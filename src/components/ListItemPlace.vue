@@ -1,6 +1,6 @@
 <template>
     <v-flex class="px-1" xs12 md6>
-        <v-list-tile avatar>
+        <v-list-tile :to="{ name: 'place', params: { uuid: place.properties.uuid } }" avatar>
             <v-list-tile-avatar>
                 <img :src="getPhotoUrl(place)">
             </v-list-tile-avatar>
