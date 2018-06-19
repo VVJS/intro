@@ -19,8 +19,8 @@ export default {
     props: ['place'],
     methods: {
         getPhotoUrl(place) {
-            const apiKey = 'AIzaSyAgGwSfZA0eGjv1-Hhncd5SZImxYbgOPb'
-            const backup = 'https://hockeycommunity.com/explore/static/images/explore/outdoor-sml.jpg'
+            const apiKey = 'AIzaSyAk4zHiqfz6h0arlrOEjvYEVSFJkotawiE'
+            const backup = 'https://s15.postimg.cc/qsnfwkqjv/default-sport-places.jpg'
             const ref = place.properties.activities[0].photo_reference
             return ref
                 ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${apiKey}`
