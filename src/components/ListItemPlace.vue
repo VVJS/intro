@@ -32,11 +32,10 @@ export default {
 
 <style scoped>
 /deep/ .list__tile {
-    border-radius: 5px;
-    border: 1px solid #dfdfdf;
+    background-color: white;
     margin-bottom: 8px;
 }
 /deep/ .list__tile:hover {
-    background-color: #0082c385;
+    background-color: #ffea2859;
 }
 </style>

@@ -14,7 +14,7 @@
                 </v-list-tile>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar app>
+        <v-toolbar class="primary" dark app>
             <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-title>
                 {{ title }}
@@ -32,11 +32,11 @@ export default {
     name: 'App',
     data() {
         return {
-            drawer: true,
+            drawer: false,
             items: [
                 {
-                    icon: 'list',
-                    title: 'List',
+                    icon: 'home',
+                    title: 'Home',
                     url: '/'
                 }
             ],
@@ -45,3 +45,10 @@ export default {
     }
 }
 </script>
+
+<style>
+.content {
+    background-color: #ececec;
+}
+</style>
+
