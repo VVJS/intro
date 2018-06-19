@@ -21,7 +21,7 @@
             </v-toolbar-title>
             <v-spacer></v-spacer>
         </v-toolbar>
-        <v-content>
+        <v-content class="column justify-center">
             <router-view/>
         </v-content>
     </v-app>

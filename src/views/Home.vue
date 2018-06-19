@@ -1,11 +1,7 @@
 <template>
-    <v-container fluid>
-        <v-slide-y-transition mode="out-in">
-            <v-layout row wrap>
-                <list-item-place :place="place" v-for="place in sportPlaces.slice(0, 20)" :key="place.properties.uuid"></list-item-place>
-            </v-layout>
-        </v-slide-y-transition>
-    </v-container>
+    <v-layout class="pt-2 px-1" row wrap>
+        <list-item-place :place="place" v-for="place in sportPlaces.slice(0, 20)" :key="place.properties.uuid"></list-item-place>
+    </v-layout>
 </template>
 
 <script>
