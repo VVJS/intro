@@ -22,4 +22,5 @@ https://github.com/VVJS/intro/wiki
 -   [Vue.js](https://vuejs.org/)
 -   [Vue.js CLI ](https://github.com/vuejs/vue-cli) for the initial setup
 -   [Vuetify ](https://vuetifyjs.com/) for style
+-   [Axios ](https://github.com/axios/axios) for an HTTP client
 -   Decathlon's [Sport Places API](https://developers.decathlon.com/sportplaces/)
