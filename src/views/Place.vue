@@ -1,7 +1,7 @@
 <template>
     <v-layout class="pt-4" column align-center>
         <v-card v-if="place">
-            <v-card-media :src="$getPhotoUrl(place, 600)" height="200px">
+            <v-card-media :src="$getPhotoUrl(place)" height="200px">
             </v-card-media>
             <v-card-title primary-title>
                 <div>
