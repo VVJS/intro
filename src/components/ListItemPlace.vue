@@ -19,12 +19,7 @@ export default {
     props: ['place'],
     methods: {
         getPhotoUrl(place) {
-            const apiKey = 'AIzaSyAk4zHiqfz6h0arlrOEjvYEVSFJkotawiE'
-            const backup = 'https://s15.postimg.cc/qsnfwkqjv/default-sport-places.jpg'
-            const ref = place.properties.activities[0].photo_reference
-            return ref
-                ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${apiKey}`
-                : backup
+            return `https://s3-us-west-2.amazonaws.com/meetups.hc/VVJS/intro/${place.properties.google_place_id}.jpg`
         }
     }
 }
